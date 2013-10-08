@@ -7,3 +7,12 @@
 th {
   text-align: left;
 }
+
+tr{
+  border-bottom: 2px solid gray;
+}
+
+img{
+  width:100%;
+  height:auto;
+}

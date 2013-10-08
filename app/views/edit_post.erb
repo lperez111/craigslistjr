@@ -1,0 +1,16 @@
+<form action="/categories/<%= @category.id %>/posts/<%= @post.id %>" method="POST">
+  <label for="post_title">Title</label>
+  <input id = "post_title" type="text" name="post[title]"/>
+  
+  <label for="post_description">Description</label>
+  <input id = "post_description" type="text-area" name="post[description]"/>
+  
+  <label for="post_contact">Contact</label>
+  <input id = "post_contact" type="text" name="post[contact]"/>
+  
+  <label for="post_photo_url">Link to photo</label>
+  <input id = "post_photo_url" type="text" name="post[photo_url]"/>
+  
+
+  <input type="submit" value="Submit"/>
+</form> 
